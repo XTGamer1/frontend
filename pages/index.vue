@@ -19,14 +19,13 @@ useHead({
   title: "Home",
 });
 
-// Check if the route is the root path and the device is a mobile device
-if (shouldRedirect()) {
+onBeforeRouteEnter((to, from, next) => {
+if (to.path === '/' && isMobileWidth()) {
   router.replace('/pwa');
 }
-
-function shouldRedirect() {
-  // Customize this condition based on your requirements
-  return window.innerWidth < 768 && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+}
+function isMobileWidth() {
+  return window.innerWidth < 768; // Adjust the threshold as needed
 }
 </script>
 
