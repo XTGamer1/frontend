@@ -19,7 +19,7 @@ const gotoRandomID = async () => {
             style="display: flex;"
             alt="amvstrm"
             quality="80"
-            width="140px"
+            width="200px"
           />
         </v-list-item>
         <ClientOnly>
@@ -56,12 +56,12 @@ const gotoRandomID = async () => {
             <v-icon icon="mdi-information" />
           </template>
         </v-list-item>
-        <v-list-item title="Help" href="https://amvdocs.pages.dev/help">
+        <v-list-item title="Help" href="https://github.com/d746f">
           <template #append>
             <v-icon icon="mdi-help" />
           </template>
         </v-list-item>
-        <v-list-item title="Github" href="https://github.com/amvstrm/amvstrm">
+        <v-list-item title="Github" href="https://github.com/d746f">
           <template #append>
             <v-icon icon="mdi-github" />
           </template>
@@ -77,7 +77,7 @@ const gotoRandomID = async () => {
             style="display: flex;"
             alt="amvstrm"
             quality="80"
-            width="140px"
+            width="200px"
           />
         </NuxtLink>
       </v-col>
@@ -90,8 +90,8 @@ const gotoRandomID = async () => {
         <AppCookieBanner />
       </ClientOnly>
     </v-main>
-    <v-footer app height="auto" dense absolute>
-      <p>amvstrm Cambodia © Copyright {{ new Date().getFullYear() }}</p>
+    <v-footer app height="50vh" dense absolute>
+      <p>Animixwatch © Copyright {{ new Date().getFullYear() }}</p>
       <v-spacer />
       <v-btn
         :prepend-icon="
