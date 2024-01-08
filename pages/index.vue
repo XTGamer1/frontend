@@ -19,13 +19,9 @@ useHead({
   title: "Home",
 });
 
-onBeforeRouteEnter((to, from, next) => {
-if (to.path === '/' && isMobileWidth()) {
+// Check if the route is the root path and redirect to '/pwa'
+if (router.currentRoute.value.path === '/') {
   router.replace('/pwa');
-}
-}
-function isMobileWidth() {
-  return window.innerWidth < 768; // Adjust the threshold as needed
 }
 </script>
 
