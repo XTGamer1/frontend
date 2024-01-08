@@ -1,5 +1,3 @@
-<meta http-equiv="refresh" content="0;url=/pwa">
-
 <script setup>
 useSeoMeta({
   ogTitle: "Home",
@@ -16,6 +14,11 @@ useHead({
   },
   title: "Home",
 });
+
+// Add the following code for client-side redirection
+if (window.location.href === "https://animixwatch.me/") {
+  window.location.href = "https://animixwatch.me/pwa";
+}
 </script>
 
 <template>
