@@ -1,4 +1,8 @@
 <script setup>
+import { useRouter } from 'vue-router';
+
+const router = useRouter();
+
 useSeoMeta({
   ogTitle: "Home",
   ogDescription: "amvstrm - A streaming service for weebo...",
@@ -15,9 +19,9 @@ useHead({
   title: "Home",
 });
 
-// Add the following code for client-side redirection
-if (window.location.href === "https://animixwatch.me/") {
-  window.location.href = "https://animixwatch.me/pwa";
+// Check if the route is the root path and redirect to '/pwa'
+if (router.currentRoute.value.path === '/') {
+  router.replace('/pwa');
 }
 </script>
 
