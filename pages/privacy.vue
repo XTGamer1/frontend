@@ -116,17 +116,6 @@ useHead({
         </li>
         <li>
           <p>
-            <strong>Website</strong> refers to amvstrm, accessible from
-            <a
-              href="https://amvstr.ml"
-              rel="external nofollow noopener"
-              target="_blank"
-              >https://amvstr.ml</a
-            >
-          </p>
-        </li>
-        <li>
-          <p>
             <strong>You</strong> means the individual accessing or using the
             Service, or the company, or other legal entity on behalf of which
             such individual is accessing or using the Service, as applicable.
@@ -493,7 +482,7 @@ useHead({
         If you have any questions about this Privacy Policy, You can contact us:
       </p>
       <ul>
-        <li>By email: admin@amvstr.ml</li>
+        <li>By email: kenmahosting@gmail.com</li>
       </ul>
     </div>
   </v-container>

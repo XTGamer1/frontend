@@ -23,26 +23,10 @@ useHead({
       <div class="pa-5" style="background-color: #212121">
         <h1><img src="/logo.png" alt="loho" height="50" /></h1>
         <p>
-          amvstrm is an open source anime streaming platform that offer free
-          anime with no ADs and install it as Android or IOS web app. <br />
-          Build with Nuxt 3, Vuetify and amvstrm's V2 API.
+          Welcome to Animixwatch.me, your ultimate destination for immersive anime experiences. Delve into a vast library that spans the spectrum of genres, offering everything from timeless classics to the latest releases. Our commitment to high-quality streaming ensures that you can enjoy your favorite series and movies with crisp visuals and clear audio. Navigate seamlessly through our user-friendly interface and discover personalized recommendations based on your preferences. Animixwatch.me is not just a streaming platform; it's a community hub where like-minded anime enthusiasts connect, share, and celebrate the rich tapestry of this captivating art form. Join us on this anime adventure and start streaming today at Animixwatch.me.
         </p>
         <div class="mt-2">
-          <v-btn
-            class="mr-2"
-            color="grey-darken-1"
-            prepend-icon="mdi-github"
-            href="https://github.com/amvstrm"
-          >
-            Github
-          </v-btn>
-          <v-btn
-            color="blue-darken-1"
-            prepend-icon="mdi-file-document"
-            href="https://amvdocs.pages.dev"
-          >
-            Documentation
-          </v-btn>
+
         </div>
         <div class="my-5">
           <h1>Donation</h1>
@@ -52,7 +36,7 @@ useHead({
             class="mt-4"
             color="yellow-darken-1"
             prepend-icon="mdi-cash"
-            href="https://en.liberapay.com/amvstrm"
+            href="https://www.buymeacoffee.com/whitefireshoto"
           >
             Donation
           </v-btn>
