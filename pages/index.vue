@@ -19,13 +19,14 @@ useHead({
   title: "Home",
 });
 
-// Check if the route is the root path and the device width is smaller than a certain threshold (e.g., 768px for common mobile devices)
-if (router.currentRoute.value.path === '/' && isMobileWidth()) {
+// Check if the route is the root path and the device is a mobile device
+if (shouldRedirect()) {
   router.replace('/pwa');
 }
 
-function isMobileWidth() {
-  return window.innerWidth < 768; // Adjust the threshold as needed
+function shouldRedirect() {
+  // Customize this condition based on your requirements
+  return window.innerWidth < 768 && /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 </script>
 
