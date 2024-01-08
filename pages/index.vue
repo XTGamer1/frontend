@@ -19,9 +19,13 @@ useHead({
   title: "Home",
 });
 
-// Check if the route is the root path and redirect to '/pwa'
-if (router.currentRoute.value.path === '/') {
+// Check if the route is the root path and the device is a mobile device
+if (router.currentRoute.value.path === '/' && isMobileDevice()) {
   router.replace('/pwa');
+}
+
+function isMobileDevice() {
+  return /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
 }
 </script>
 
