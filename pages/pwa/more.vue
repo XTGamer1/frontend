@@ -13,7 +13,7 @@
       <h1>More</h1>
     </div>
     <v-list lines="two">
-      <v-list-item title="amvstrm's PWA mode" subtitle="Version amvN3 (Nuxt 3)">
+      <v-list-item title="Animixwatch's PWA mode" subtitle="Version amvN3 (Nuxt 3)">
         <template #prepend>
           <img
             src="/icon.png"
@@ -22,8 +22,8 @@
         </template>
       </v-list-item>
       <v-list-item
-        title="amvstrm"
-        :subtitle="new Date().getFullYear() + ' © amvstrm'"
+        title="Animixwatch"
+        :subtitle="new Date().getFullYear() + ' © Animixwatch'"
       />
     </v-list>
     <v-divider class="my-4"></v-divider>
@@ -34,7 +34,7 @@
       <v-list-item
         title="Help"
         target="blank"
-        href="https://docs.amvstr.ml/help"
+        href="https://github.com/d746f"
       >
         <template #append>
           <v-icon icon="mdi-help" />
@@ -43,7 +43,7 @@
       <v-list-item
         title="Github"
         target="blank"
-        href="https://github.com/amvstrm/amvstrm"
+        href="https://github.com/d746f"
       >
         <template #append>
           <v-icon icon="mdi-github" />
